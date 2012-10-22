@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	practiceOne4Four()
+	sliceTest()
 }
 
 func myfunc() {
@@ -52,8 +52,8 @@ func sliceTest() {
 	b1 := a[1:3]
 	c := a[1:]
 	d1 := a[:4]
-	fmt.Println(d1)
-	fmt.Println(b1)
+	fmt.Println(len(d1))
+	fmt.Println(cap(b1))
 	fmt.Println("c", c)
 	e := append(d, b...)
 	f := append(d, 2, 3, 5)
