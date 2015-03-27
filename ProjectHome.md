@@ -1,0 +1,1 @@
+myprojectfor go
